@@ -61,7 +61,8 @@ http://localhost:8080
 ```
 
 <h3>Testar os endpoints</h3>
-- Você pode usar o Postman, Insomnia ou até o comando curl.
+<h4>Você pode usar o Postman, Insomnia ou até o comando curl.</h4>
+
 
 <h4>Exemplo para cadastrar um filme: </h4>
 
@@ -72,6 +73,7 @@ curl -X POST http://localhost:8080/filmes \
 
 ```
 
+<br/>
 <h2 id="routes">📍 API Endpoints</h2>
 
 ​
@@ -99,7 +101,7 @@ curl -X POST http://localhost:8080/filmes \
 ```json
 "Filme cadastrado com sucesso!"
 ```
-
+<br/>
 <h3 id="get-auth-detail">GET /filmes</h3>
 
 **RESPONSE**
@@ -117,7 +119,7 @@ curl -X POST http://localhost:8080/filmes \
   "avaliacao": 4.0
 }
 ```
-
+<br/>
 <h3 id="get-auth-detail">GET /filmes/id</h3>
 
 **RESPONSE (200 OK)**
@@ -130,7 +132,7 @@ curl -X POST http://localhost:8080/filmes \
 }
 ```
 
-
+<br/>
 <h3 id="get-auth-detail">PUT /filmes/id</h3>
 
 **REQUEST**
@@ -147,7 +149,7 @@ curl -X POST http://localhost:8080/filmes \
 ```json
 "Filme atualizado com sucesso!"
 ```
-
+<br/>
 <h3 id="get-auth-detail">DELETE /filmes/id</h3>
 
 **RESPONSE (200 OK)**
