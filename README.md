@@ -131,3 +131,20 @@ npm some-command-to-run
 ```
 
 
+<h2 id="errors">⚠️ Possíveis Respostas de Erro</h2>
+
+<h3>400 BAD REQUEST</h3>
+
+- Quando os dados enviados não atendem às validações.
+- Exemplo: avaliação maior que 5 ou campo obrigatório vazio.
+
+ ```json
+{
+  "errors": [
+    "A avaliação deve ser menor ou igual a 5",
+    "O campo 'nome' é obrigatório"
+  ]
+}
+```
+
+
