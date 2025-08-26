@@ -60,12 +60,14 @@ npm some-command-to-run
 
 <h2 id="routes">📍 API Endpoints</h2>
 
-Here you can list the main routes of your API, and what are their expected request bodies.
 ​
 | route               | description                                          
 |----------------------|-----------------------------------------------------
-| <kbd>GET /authenticate</kbd>     | retrieves user info see [response details](#get-auth-detail)
-| <kbd>POST /authenticate</kbd>     | authenticate user into the api see [request details](#post-auth-detail)
+| <kbd>POST /filmes</kbd>         | Permite adicionar um novo filme ao catálogo.
+| <kbd>GET /filmes</kbd>          | Retorna todos os filmes cadastrados.
+| <kbd>GET /filmes/{id}</kbd>     | Retorna um filme específico pelo seu ID.
+| <kbd>PUT /filmes/{id}</kbd>     | Permite atualizar os dados de um filme existente.
+| <kbd>DELETE /filmes/{id}</kbd>  | Remove um filme do catálogo pelo ID.
 
 <h3 id="get-auth-detail">GET /authenticate</h3>
 
