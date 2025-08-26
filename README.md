@@ -27,7 +27,7 @@
 
 
 ```bash
-https://github.com/devWillianFerreira/API-FILMES.git
+git clone https://github.com/seu-usuario/WilFLIX.git
 ```
 
 <h3>Config .env variables</h2>
