@@ -3,7 +3,9 @@
 <p align="center">
  <a href="#funcionalidades">Funcionalidades</a> • 
  <a href="#started">Rodando API</a> • 
-  <a href="#routes">API Endpoints</a> •
+ <a href="#routes">API Endpoints</a> •
+  <a href="#errors">Possíveis Respostas de Erro</a> 
+ 
 </p>
 
 <p align="center">
@@ -133,6 +135,7 @@ npm some-command-to-run
 
 <h2 id="errors">⚠️ Possíveis Respostas de Erro</h2>
 
+
 <h3>400 BAD REQUEST</h3>
 
 - Quando os dados enviados não atendem às validações.
@@ -146,5 +149,14 @@ npm some-command-to-run
   ]
 }
 ```
+
+<h3>404 NOT FOUND</h3>
+
+- Quando o ID informado não existe no banco de dados.
+
+ ```json
+"Filme não encontrado"
+```
+
 
 
