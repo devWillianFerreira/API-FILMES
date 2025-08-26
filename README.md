@@ -60,9 +60,17 @@ http://localhost:8080
 
 ```
 
+<h3>Testar os endpoints</h3>
+- Você pode usar o Postman, Insomnia ou até o comando curl.
 
+<h4>Exemplo para cadastrar um filme: </h4>
 
+```bash
+curl -X POST http://localhost:8080/filmes \
+-H "Content-Type: application/json" \
+-d '{"nome":"Matrix","descricao":"Um hacker descobre a verdade sobre a Matrix.","avaliacao":4.7}'
 
+```
 
 <h2 id="routes">📍 API Endpoints</h2>
 
