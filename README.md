@@ -27,26 +27,15 @@
 
 
 ```bash
-git clone https://github.com/seu-usuario/WilFLIX.git
+git clone https://github.com/seu-usuario/API-FILMES.git
 ```
 
-<h3>Config .env variables</h2>
-
-Use the `.env.example` as reference to create your configuration file `.env` with your AWS Credentials
-
-```yaml
-NODE_AWS_REGION=us-east-1
-NODE_AWS_KEY_ID={YOUR_AWS_KEY_ID}
-NODE_AWS_SECRET={YOUR_AWS_SECRET}
-```
-
-<h3>Starting</h3>
-
-How to start your project
+<h3>Iniciando</h3>
 
 ```bash
-cd project-name
-npm some-command-to-run
+cd API-FILMES
+- Abra o projeto no IntelliJ IDEA ou IDE de sua preferência 
+- Vá em File > Open e selecione a pasta do projeto.
 ```
 
 <h2 id="routes">📍 API Endpoints</h2>
