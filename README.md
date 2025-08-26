@@ -56,7 +56,7 @@ src/main/java/com/seuusuario/wilflix/WilflixApplication.java
 - Depois que a aplicação iniciar, ela ficará disponível em:
 
 ```bash
-[src/main/java/com/seuusuario/wilflix/WilflixApplication.java](http://localhost:8080)
+http://localhost:8080
 
 ```
 
