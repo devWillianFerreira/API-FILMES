@@ -18,23 +18,14 @@
 - Buscar por id
 - Deletar
 
-<h2 id="started">🚀 Getting started</h2>
+<h2 id="started">🚀 Rodando API</h2>
 
-Here you describe how to run your project locally
 
-<h3>Prerequisites</h3>
+<h3>Clonando o projeto</h3>
 
-Here you list all prerequisites necessary for running your project. For example:
-
-- [NodeJS](https://github.com/)
-- [Git 2](https://github.com)
-
-<h3>Cloning</h3>
-
-How to clone your project
 
 ```bash
-git clone your-project-url-in-github
+https://github.com/devWillianFerreira/API-FILMES.git
 ```
 
 <h3>Config .env variables</h2>
