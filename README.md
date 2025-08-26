@@ -53,7 +53,7 @@ src/main/java/com/seuusuario/wilflix/WilflixApplication.java
 
 
 <h3>Acesse a API</h3>
-- Depois que a aplicação iniciar, ela ficará disponível em:
+Depois que a aplicação iniciar, ela ficará disponível em:
 
 ```bash
 http://localhost:8080
