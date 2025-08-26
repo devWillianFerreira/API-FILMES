@@ -88,7 +88,7 @@ npm some-command-to-run
 {
   "id": "eec455d7-e311-4070-9136-040f83bfaafe",
   "nome": "MIB- Homens de Preto",
-  "descricao": uma agência secreta governamental chamada MIB cuida de fiscalizar os alienígenas que já vivem na Terra.",
+  "descricao": "uma agência secreta governamental chamada MIB cuida de fiscalizar os alienígenas que já vivem na Terra.",
   "avaliacao": 4.0
 }
 ```
