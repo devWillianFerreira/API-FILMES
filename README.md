@@ -30,13 +30,27 @@
 git clone https://github.com/seu-usuario/API-FILMES.git
 ```
 
+
 <h3>Iniciando</h3>
 
 ```bash
 cd API-FILMES
-- Abra o projeto no IntelliJ IDEA ou IDE de sua preferência 
-- Vá em File > Open e selecione a pasta do projeto.
 ```
+- Abra o projeto no IntelliJ IDEA ou IDE de sua preferência
+
+
+
+
+<h3>Rode a aplicação</h3>
+<h4>Localize a classe principal: </h4>
+
+```bash
+src/main/java/com/seuusuario/wilflix/WilflixApplication.java
+
+```
+- Clique no botão Run ▶️ no IntelliJ.
+
+
 
 <h2 id="routes">📍 API Endpoints</h2>
 
