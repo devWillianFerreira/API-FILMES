@@ -84,6 +84,12 @@ npm some-command-to-run
   "nome": "O Senhor dos Anéis",
   "descricao": "Um épico de fantasia baseado na obra de J.R.R. Tolkien.",
   "avaliacao": 4.8
+},
+{
+  "id": "eec455d7-e311-4070-9136-040f83bfaafe",
+  "nome": "MIB- Homens de Preto",
+  "descricao": uma agência secreta governamental chamada MIB cuida de fiscalizar os alienígenas que já vivem na Terra.",
+  "avaliacao": 4.0
 }
 ```
 
