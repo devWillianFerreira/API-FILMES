@@ -1,7 +1,7 @@
-<h1 align="center" style="font-weight: bold;">Project name 💻</h1>
+<h1 align="center" style="font-weight: bold;">API DE FILMES</h1>
 
 <p align="center">
- <a href="#tech">Technologies</a> • 
+ <a href="#funcionalidades">Funcionalidades</a> • 
  <a href="#started">Getting Started</a> • 
   <a href="#routes">API Endpoints</a> •
  <a href="#colab">Collaborators</a> •
@@ -9,15 +9,16 @@
 </p>
 
 <p align="center">
-    <b>Simple description of what your project do or how to use it.</b>
+    <b>WilFLIX é uma API para gerenciar filmes, garantindo que os dados enviados sejam válidos e que a avaliação esteja entre 0 e 5.</b>
 </p>
 
-<h2 id="technologies">💻 Technologies</h2>
+<h2 id="funcionalidades">💻 Funcionalidades</h2>
 
-- list of all technologies you used
-- Java
-- MongoDB
-- NodeJS
+- Cadastrar Produto
+- Atualizar Produto
+- Listar Produtos
+- Buscar por id
+- Deletar
 
 <h2 id="started">🚀 Getting started</h2>
 
