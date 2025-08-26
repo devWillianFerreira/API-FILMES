@@ -58,31 +58,36 @@ npm some-command-to-run
 | <kbd>PUT /filmes/{id}</kbd>     | Permite atualizar os dados de um filme existente.
 | <kbd>DELETE /filmes/{id}</kbd>  | Remove um filme do catálogo pelo ID.
 
-<h3 id="get-auth-detail">GET /authenticate</h3>
+<h3 id="get-auth-detail">GET /filmes</h3>
 
 **RESPONSE**
 ```json
 {
-  "name": "Fernanda Kipper",
-  "age": 20,
-  "email": "her-email@gmail.com"
+  "id": "a12f-4b67-9c34-ef56",
+  "nome": "O Senhor dos Anéis",
+  "descricao": "Um épico de fantasia baseado na obra de J.R.R. Tolkien.",
+  "avaliacao": 4.8
 }
 ```
 
-<h3 id="post-auth-detail">POST /authenticate</h3>
+<h3 id="post-auth-detail">POST /filmes</h3>
 
 **REQUEST**
 ```json
 {
-  "username": "fernandakipper",
-  "password": "4444444"
+  "nome": "O Senhor dos Anéis",
+  "descricao": "Um épico de fantasia baseado na obra de J.R.R. Tolkien.",
+  "avaliacao": 4.8
 }
 ```
 
-**RESPONSE**
+**RESPONSE (201 CREATED)**
 ```json
 {
-  "token": "OwoMRHsaQwyAgVoc3OXmL1JhMVUYXGGBbCTK0GBgiYitwQwjf0gVoBmkbuyy0pSi"
+  "id": "a12f-4b67-9c34-ef56",
+  "nome": "O Senhor dos Anéis",
+  "descricao": "Um épico de fantasia baseado na obra de J.R.R. Tolkien.",
+  "avaliacao": 4.8
 }
 ```
 
