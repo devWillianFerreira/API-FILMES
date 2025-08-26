@@ -58,17 +58,6 @@ npm some-command-to-run
 | <kbd>PUT /filmes/{id}</kbd>     | Permite atualizar os dados de um filme existente.
 | <kbd>DELETE /filmes/{id}</kbd>  | Remove um filme do catálogo pelo ID.
 
-<h3 id="get-auth-detail">GET /filmes</h3>
-
-**RESPONSE**
-```json
-{
-  "id": "a12f-4b67-9c34-ef56",
-  "nome": "O Senhor dos Anéis",
-  "descricao": "Um épico de fantasia baseado na obra de J.R.R. Tolkien.",
-  "avaliacao": 4.8
-}
-```
 
 <h3 id="post-auth-detail">POST /filmes</h3>
 
@@ -83,13 +72,56 @@ npm some-command-to-run
 
 **RESPONSE (201 CREATED)**
 ```json
+"Filme cadastrado com sucesso!"
+```
+
+<h3 id="get-auth-detail">GET /filmes</h3>
+
+**RESPONSE**
+```json
 {
-  "id": "a12f-4b67-9c34-ef56",
+  "id": "4fe7abfd-1cab-4f4c-b046-6b521879a836",
   "nome": "O Senhor dos Anéis",
   "descricao": "Um épico de fantasia baseado na obra de J.R.R. Tolkien.",
   "avaliacao": 4.8
 }
 ```
 
+<h3 id="get-auth-detail">GET /filmes/id</h3>
+
+**RESPONSE (200 OK)**
+```json
+{
+  "id": "4fe7abfd-1cab-4f4c-b046-6b521879a836",
+  "nome": "O Senhor dos Anéis",
+  "descricao": "Um épico de fantasia baseado na obra de J.R.R. Tolkien.",
+  "avaliacao": 4.9
+}
+```
+
+
+<h3 id="get-auth-detail">PUT /filmes/id</h3>
+
+**REQUEST**
+```json
+{
+  "id": "4fe7abfd-1cab-4f4c-b046-6b521879a836",
+  "nome": "O Senhor dos Anéis",
+  "descricao": "Um épico de fantasia baseado na obra de J.R.R. Tolkien.",
+  "avaliacao": 4.9
+}
+```
+
+**RESPONSE (200 OK)**
+```json
+"Filme atualizado com sucesso!"
+```
+
+<h3 id="get-auth-detail">DELETE /filmes/id</h3>
+
+**RESPONSE (200 OK)**
+```json
+"Filme deletado com sucesso!"
+```
 
 
