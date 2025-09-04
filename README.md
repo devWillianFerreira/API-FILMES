@@ -174,9 +174,66 @@ curl -X POST http://localhost:8080/filmes \
  ```json
 {
   "errors": [
-    "A avaliação deve ser menor ou igual a 5",
-    "O campo 'nome' é obrigatório"
-  ]
+        {
+            "objectName": "filme",
+            "field": "nome",
+            "rejectedValue": "",
+            "codes": [
+                "NotBlank.filme.nome",
+                "NotBlank.nome",
+                "NotBlank.java.lang.String",
+                "NotBlank"
+            ],
+            "arguments": [
+                {
+                    "codes": [
+                        "filme.nome",
+                        "nome"
+                    ],
+                    "arguments": null,
+                    "defaultMessage": "nome",
+                    "code": "nome"
+                }
+            ],
+            "defaultMessage": "O nome é obrigatória",
+            "bindingFailure": false,
+            "code": "NotBlank"
+        },
+        {
+            "objectName": "filme",
+            "field": "avaliacao",
+            "rejectedValue": 7.0,
+            "codes": [
+                "DecimalMax.filme.avaliacao",
+                "DecimalMax.avaliacao",
+                "DecimalMax.java.lang.Double",
+                "DecimalMax"
+            ],
+            "arguments": [
+                {
+                    "codes": [
+                        "filme.avaliacao",
+                        "avaliacao"
+                    ],
+                    "arguments": null,
+                    "defaultMessage": "avaliacao",
+                    "code": "avaliacao"
+                },
+                true,
+                {
+                    "arguments": null,
+                    "defaultMessage": "5.0",
+                    "codes": [
+                        "5.0"
+                    ]
+                }
+            ],
+            "defaultMessage": "A nota máxima é 5.0",
+            "bindingFailure": false,
+            "code": "DecimalMax"
+        }
+    ],
+    "path": "/filmes"
 }
 ```
 
