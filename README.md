@@ -42,6 +42,7 @@ cd API-FILMES
 <h4>⚠️ Aviso Importante (para usuários do IntelliJ) </h4>
 <h5>Após clonar ou baixar o projeto, **certifique-se de que ele está configurado como Maven Project**:</h5>
 • Verifique se o arquivo `pom.xml` está marcado como Maven.
+
 • Caso não esteja, clique com o botão direito no `pom.xml` → "Add as Maven Project".
 
 
