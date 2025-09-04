@@ -1,10 +1,25 @@
+############################################
+# Java / Maven
+############################################
 HELP.md
 target/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven Wrapper
 .mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Exceções para targets dentro de src
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+############################################
+# STS (Spring Tool Suite)
+############################################
 .apt_generated
 .classpath
 .factorypath
@@ -13,13 +28,18 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+############################################
+# IntelliJ IDEA
+############################################
+.idea/
 *.iws
 *.iml
 *.ipr
+out/
 
-### NetBeans ###
+############################################
+# NetBeans
+############################################
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -29,5 +49,13 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+############################################
+# VS Code
+############################################
 .vscode/
+
+############################################
+# OS-specific files
+############################################
+.DS_Store
+Thumbs.db
