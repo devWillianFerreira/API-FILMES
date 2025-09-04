@@ -45,7 +45,7 @@ cd API-FILMES
 
 • Caso não esteja, clique com o botão direito no `pom.xml` → "Add as Maven Project".
 
-
+<br/>
 <h3>Rode a aplicação</h3>
 <h4>Localize a classe principal: </h4>
 
