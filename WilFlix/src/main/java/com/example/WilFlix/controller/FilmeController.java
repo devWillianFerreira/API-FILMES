@@ -53,7 +53,7 @@ public class FilmeController {
         return filmesRepository.findById(id).map(f->{
             filme.setId(id);
             filmesRepository.save(filme);
-            return ResponseEntity.ok("Filme atualizado com sucesso!v");
+            return ResponseEntity.ok("Filme atualizado com sucesso!");
         }).orElse(ResponseEntity.status(HttpStatus.NOT_FOUND).body("Filme não encontrado"));
     }
 }
